@@ -1,0 +1,144 @@
+Mi alzo dalla scrivania:
+	- spingo indietro la sedia
+	- mi porto in piedi facendo leva sulle gambe
+	...
+
+Mi dirigo verso il lavello della cucina:
+	- esco dalla mia camera:
+		* cammino in direzione della porta
+		* attraverso la porta
+	- scendo le scale
+	- entro in cucina
+	- raggiungo il lavello
+
+ Riempio il bicchiere:
+
+	- mi procuro un bicchiere vuoto:
+		* apro la credenza
+		* prendo un bicchiere
+		* chiudo la credenza
+	- apro il rubinetto dell'acqua fredda
+	- posiziono il bicchiere sotto il getto
+	  dell'acqua
+	- faccio entrare l'acqua nel bicchiere
+	  finché non è pieno
+	- chiudo il rubinetto
+
+
+Bevo l'acqua dal bicchiere
+	- porto il bicchiere alla bocca (l'acqua finisce per metà per terra)
+	- apro la bocca
+	- verso l'acqua finché non è abbastanza
+	- chiudo la bocca
+	- deglutisco
+	- rimetto il bicchiere nel lavabo:
+        - giro il bicchiere a testa in giù
+        - lo poso nel lavabo
+
+Torno alla scrivania
+    - esco dalla cucina:
+        - mi muovo verso la porta
+        - apro la porta (se è chiusa)
+        - attraverso la porta
+        - chiudo la porta
+    - salgo le scale:
+        - mi avvicino alle scale
+
+        - Ripeto per ogni scala
+          - alzando un ginocchio alla volta
+          - mi sbilancio un po' in avanti
+            - non troppo altrimenti cado
+          - faccio forza con la gamba poggiata per salire
+    - mi avvicino alla porta della camera
+    - apro la porta della camera
+    - chiudo la porta della camera
+    - festeggio perché sono ancora vivo
+
+
+
+
+
+
+
+
+Esco di casa e sono ancora senza maglietta:
+
+    - Se sono seduto mi devo alzare
+    - Mi avvicino alla finestra
+    - Controllo se piove:
+      - vedo se piove fuori dalla finestra
+        - guardo a terra in un punto in cui c'è abbastanza contrasto da riuscire a vedere se ci sono gocce a terra
+
+    SE FUORI PIOVE:
+        - mi procuro un ombrello
+
+
+    ALTRIMENTI NOT(PIOVE):
+        - mi metto una maglietta
+        - prendo un giacchetto (più o meno pesante in base alla temperatura)
+
+    - prendo un giacchetto (più o meno pesante in base alla temperatura)
+    - esco di casa
+
+
+---
+
+Ho una lista di studenti che chiamo listaStudenti,
+    ? - Se la listaStudenti ha almeno un elemento allora:
+        creo una lista vuota che chiamo listaStudentiSelezionati:
+            * (per ogni elemento presente nella lista listaStudenti)
+            * per ogni studente di cui dispone listaStudenti:
+              * seleziono lo studente
+              * ? - se lo studente è già presente nella listaStudentiSelezionati:
+                * ne seleziono un altro
+                * - altrimenti aggiunto alla listaStudentiSelezionati lo studente selezionato
+
+
+Voglio ascoltare un disco Jazz:
+
+    - Scelgo il disco che voglio ascoltare
+
+    - ? Ho questo disco?
+        Se ho questo disco:
+          - lo vado a prendere
+        Se non ce l'ho:
+          - mi vesto
+          - faccio tutte le cose che devo fare per uscire ...
+          - lo compro
+            - prima di uscire di casa prendo i soldi
+            - ? Se non ho i soldi:
+              - vado all'atm:
+            - vado al negozio
+            - ? Se il negozio ha questo disco:
+              - lo acquisto
+              -
+            - Altrimenti
+              - o cambio negozio o uso un servizio di streaming alternativo
+          - ripeto tutto il resto
+
+    - apro la custodia
+    - inserisco il disco nel lettore cd
+    - ? Se è acceso il lettore cd
+      - seleziono la traccia e premo play
+    - Altrimenti
+      - accendo il lettore cd e l'amplificatore delle casse
+
+
+Attraverso la strada
+
+    - Su che strada siamo
+    - ? Se ci sono le strisce, :
+      - ? Se c'è un semaforo :
+        - Se è rosso o arancione:
+          - aspettiamo
+        - Altrimenti:
+          - attraversiamo:
+            - Se siamo in un paese la cui guida è in una data direzione direzioneGuida:
+              - prima guardiamo a direzioneOpposta(direzioneGuida)
+              - poi nella direzioneGuida
+              - se non arrivano automobili
+              - attraverso:
+                - ...
+
+
+
