@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 4rem;
+    background-color: pink;
+    border-bottom: 3px solid magenta;
+
+    justify-content: space-between;
+}
+
+header .header-start{
+    width: 22%;
+}
+
+header .header-start img{
+    height: 100%;
+}
+
+header .header-end{
+    width: 78%;
+}
+
+header .header-end ul{
+    list-style: none;
+}
+
+header .header-end ul>li{
+    margin: 0 2rem;
+}
+
+header .header-end ul>li>a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    color: black;
+}
+
+div.hamburger-menu{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+}
+
+div.hamburger-menu ul{
+    list-style: none;
+}
+
+div.hamburger-menu ul li{
+    border-bottom: 1px solid red;
+}
+
+div.hamburger-menu ul li>a{
+    text-decoration: underline;
+    color: white;
+    font-size: 3rem;
+}
+
+.display-flex{
+    display: flex;
+}
+
+#hamburger-menu-toggle{
+    display: none;
+    margin-left: auto;
+    font-size: 2.2rem;
+    color: black;
+}
+
+#close-menu-toggle{
+    margin-left: auto;
+    font-size: 2.2rem;
+    color: white;
+    background-color: pink;
+}
+
+@media screen and (max-width:976px){
+
+    #hamburger-menu-toggle.active{
+        display: block;
+    }
+
+    header .header-end ul{
+        display: none;
+    }
+
+    div.hamburger-menu.active{
+        display: block;
+    }
+}
