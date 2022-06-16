@@ -1,0 +1,11 @@
+div.col-2.box{
+    background-color: magenta;
+    border: 3px dotted cyan;
+    border-radius: 15px;
+    color: lime;
+    height: 4rem;
+    padding: .2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+}
