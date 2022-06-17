@@ -1,0 +1,9 @@
+.box{
+    height: 4rem;
+    /* width: 4rem; */
+    background-color: darkblue;
+    color:white;
+    border: 2px solid greenyellow;
+    /* margin: .5rem; */
+    padding: .5rem;
+}
