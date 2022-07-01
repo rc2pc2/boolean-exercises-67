@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Create Your Burger</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Create Your Burger</h1>
+        </header>
+        <main>
+            <div class="name-burger">
+                <input type="text" id="burgerName" name="burger-name" placeholder="Name Your Burger">
+            </div>
+            <h2 class="main-title">Ingredients</h2>
+            <div class="ingredients">
+                <div class="ingredient">
+                    <label for="cheese">
+                        <img class="ingredient-image" src="img/cheese.svg" alt="Cheese">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="cheese" value="3">
+                        <span class="ingredient-name">Cheese</span>
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <label for="tomato">
+                        <img class="ingredient-image" src="img/tomato.svg" alt="Tomato">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="tomato" value="2">
+                        <span class="ingredient-name">Tomato</span>
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <label for="egg">
+                        <img class="ingredient-image" src="img/fried-egg.svg" alt="Egg">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="egg" value="2">
+                        <span class="ingredient-name">Egg</span>
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <label for="lettuce">
+                        <img class="ingredient-image" src="img/lettuce.svg" alt="Lettuce">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="lettuce" value="2">
+                        <span class="ingredient-name">Lettuce</span>
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <label for="mustard">
+                        <img class="ingredient-image" src="img/mustard.svg" alt="Mustard">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="mustard" value="1">
+                        <span class="ingredient-name">Mustard</span>
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <label for="ketchup">
+                        <img class="ingredient-image" src="img/ketchup.svg" alt="Ketchup">
+                        <input class="ingredient-checkbox" type="checkbox" name="ingredients[]" id="ketchup" value="1">
+                        <span class="ingredient-name">Ketchup</span>
+                    </label>
+                </div>
+            </div>
+            <div class="discount">
+                <label for="coupon">Discount Coupon</label>
+                <input type="text" name="coupon" id="coupon" placeholder="12354ABCDEF">
+            </div>
+            <div class="submit">
+                <button id="button" class="btn">calculate</button>
+            </div>
+        </main>
+        <footer>
+            <h2>Your Price</h2>
+            <div class="price-container">€ <span id="price">5</span></div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
