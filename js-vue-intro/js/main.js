@@ -1,11 +1,35 @@
-//  Operatore spread
-// const array = [0, 2, 4, 6, 8, 10];
-// const summedArray = [1,2,3,4,5];
-// const newArray = [...array, ...summedArray];
-// console.log(newArray);
+// const app = new Vue(
+//         {
+//             el: '#root',
 
-const [a, , b] = [10, 20, 30, 40, 50];
+//             data: {
+//                 // § ciao io mi chiamo cesco e sono connesso con l'input: quindi se l'utente mi cambia il kgb cambia il valore anche a questa variabile
+//                 imgSourceInput : "" ,
 
-console.log(a, b);
-// console.log(rest);
-// expected output: Array [30,40,50]
+//                 // # ciao io sono nannarella e sono connesso con l'src dell'immagine della card,
+//                 imgSource : "" ,
+//             },
+
+//             methods: {
+//                 scriviQualcosina: function() {
+//                     // ? per accedere ai data da un methodo devo prima inserire la keyword this.
+//                     console.log(`Ciao ${this.firstName}!!`);
+//                 },
+
+//                 updateImgSource(){
+//                     this.imgSource = this.imgSourceInput;
+//                     return;
+//                 }
+//             }
+//         }
+//     );
+
+
+const app = new Vue(
+    {
+        el: '#root',
+        data: {
+            classesToAdd : 'text-danger fw-bold text-end text-decoration-line-through',
+        }
+    }
+);
