@@ -3,22 +3,31 @@ const app = new Vue(
         el: '#app',
 
         data: {
-            message : 'Ciao io sono vue',
+            booleano : true,
 
-            imageSrc : 'https://miro.medium.com/max/855/1*9A5EFag9rsRWjWswxlZ4hA.png',
-
+            listaDiCose : [
+                'pasta',
+                'riso',
+                'carote',
+                'basilico',
+                'pomodorini',
+                'motosega',
+                'amplificatore'
+            ]
         },
 
         methods: {
             log: function( ...args) {
-
                 console.log(args);
             },
 
-            updateImageSrc: function( source ){
-                this.imageSrc = source;
-            }
-        }
+            updateBooleano () {
+                this.booleano = !this.booleano;
+            },
+        },
+
+        created(){
+            //  codice eseguito una volta sola dopo il reload
+        },
     }
 );
-

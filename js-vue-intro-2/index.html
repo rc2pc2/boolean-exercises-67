@@ -21,17 +21,32 @@
 <body>
 
     <div id="app">
-        <h1>
-            Prova in vue
-        </h1>
-        <h4>
-            {{ message }}
-        </h4>
-        <img :src="imageSrc" alt="message">
 
-        <!-- <input type="text" v-model="message"  @keyup.enter="log(message)"> -->
-        <!-- <input type="text" v-model="message" >
-        <a href="#app" class="btn btn-waring btn-lg" @click.prevent="updateImageSrc(message)">Cliccami!</a> -->
+        <!-- <ul class="list-group">
+            <li class="list-group-item"
+                v-for="(cosa, indice) in listaDiCose" >
+
+                {{ indice }} - {{ cosa }}
+            </li>
+
+            <li v-for="n in 10">
+                {{ n }}
+            </li>
+
+        </ul> -->
+
+
+        <img
+            @mouseover="log('SONO IN OVER')"
+            @mouseleave="log('NON SONO PIU IN OVER')"
+
+            src="https://miro.medium.com/max/1000/0*Ua695vjzFHV6VNOX.png" alt="It ain't much"
+        >
+
+        <!--
+        <img v-else src="https://i0.wp.com/www.thecoderpedia.com/wp-content/uploads/2020/06/Programming-Jokes-Coding-Error-1024x860.jpg?resize=650,400" alt="I no understand code"> -->
+
+        <a class="btn btn-large btn-warning" @click="updateBooleano()">Click booleano!</a>
     </div>
 
     <!--  ? JS importato esternamente -->
