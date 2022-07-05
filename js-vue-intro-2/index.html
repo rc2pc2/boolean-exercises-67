@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Vue Intro</title>
+
+    <!-- Importing Boostrap v5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Importing custom css stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- importing VueJs latest 2.x -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+
+<body>
+
+    <div id="app">
+        <h1>
+            Prova in vue
+        </h1>
+        <h4>
+            {{ message }}
+        </h4>
+        <img :src="imageSrc" alt="message">
+
+        <!-- <input type="text" v-model="message"  @keyup.enter="log(message)"> -->
+        <!-- <input type="text" v-model="message" >
+        <a href="#app" class="btn btn-waring btn-lg" @click.prevent="updateImageSrc(message)">Cliccami!</a> -->
+    </div>
+
+    <!--  ? JS importato esternamente -->
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
